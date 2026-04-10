@@ -1,0 +1,28 @@
+\documentclass[11pt]{letter}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+
+\signature{Yongjun Kim, Ph.D.\\Department of Software\\Ajou University\\Suwon 16499, South Korea\\yjkim0123@ajou.ac.kr}
+\address{Department of Software\\Ajou University\\Suwon 16499, South Korea}
+
+\begin{document}
+\begin{letter}{Editor-in-Chief\\IEEE Transactions on Circuits and Systems II: Express Briefs}
+
+\opening{Dear Editor,}
+
+Please find enclosed the manuscript entitled \textbf{``Predictive Modeling of Generative AI Inference Cost Across Hardware Platforms''} for consideration as an Express Brief in \textit{IEEE TCAS-II}.
+
+This brief addresses a practical challenge in hardware-aware system design: predicting the energy cost of generative AI inference across heterogeneous platforms. Using 4,133 measurements from seven models across Apple M4 Pro, NVIDIA A100, and H100, the key findings are:
+
+\begin{itemize}
+\item Within-platform prediction achieves $R^2{=}0.923$ using configuration-level means with standard regression, demonstrating that eight engineered features capture the essential cost structure.
+\item A critical generalization gap exists: leave-one-hardware-out prediction drops to $R^2{=}0.08$, revealing that cross-platform cost models remain infeasible with current feature representations.
+\item SHAP analysis identifies distinct cost drivers per architecture: TDP dominates for autoregressive models (hardware-bound), while task complexity and diffusion steps dominate for diffusion models (workload-bound).
+\end{itemize}
+
+This work is relevant to \textit{TCAS-II} as it addresses energy-aware system design through predictive modeling of hardware-dependent inference costs, providing practical guidelines for circuit and system designers selecting AI accelerator platforms. The manuscript has not been published elsewhere and is not under review at any other journal.
+
+\closing{Sincerely,}
+
+\end{letter}
+\end{document}

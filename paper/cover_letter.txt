@@ -1,0 +1,13 @@
+Dear Editor,
+
+I am resubmitting the revised manuscript "Predictive Modeling of Generative AI Inference Cost Across Hardware Architectures" (TCAS-II-27083-2026) for consideration in IEEE Transactions on Circuits and Systems II: Express Briefs.
+
+The manuscript has been revised to meet the strict 5-page limit as specified in the TCAS-II Express Briefs guidelines. The revised PDF is now exactly 5 pages, consisting of 4.5 pages of content and 0.5 page of references as required.
+
+Thank you for your consideration.
+
+Sincerely,
+Yongjun Kim
+Department of Software, Ajou University
+Suwon 16499, South Korea
+E-mail: yjkim0123@ajou.ac.kr
